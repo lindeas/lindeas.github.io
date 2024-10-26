@@ -8,10 +8,20 @@
 <h1><a href="https://lindeas.com">Lindeas</a> projects</h1>
 
 <hr />
+JILO - Jitsi Logs Observer
+<hr />
 
-<h2>JILO - Jitsi Logs Observer</h2>
+<h2>jilo-server</h2>
 
-<p>Bash scripts for collecting and displaying information about conference events from Jitsi Meet logs.</p>
+Monitoring server with a web interface. It's where you look at the stats and graphs. It's where you manage most of the Jilo settings.
+
+<h2>jilo-agent</h2>
+
+Small server on a remote jitsi machine. Checks the local jitsi processes, gets configuration or usage data and sends it to the Jilo Server.
+
+<h2>jilo-cli</h2>
+
+Shell script on a remote jitsi machine. Runs periodically to fetch data from the jitsi logs. Jilo Agent can then send them to the server.
 
 <p>Includes:</p>
 
@@ -19,18 +29,6 @@
     <li><strong>jilo</strong> - server side tool for gathering data from Jitsi logs</li>
     <li><strong>jilo-cli</strong> - command line client for querying the database of collected logs data</li>
 </ul>
-
-<h2>Jilo Web - Jitsi logs web observer</h2>
-
-<p>Web interface to a Jilo database.<br />Demo: <a href="https://work.lindeas.com/jilo-web-demo/">https://work.lindeas.com/jilo-web-demo/</a></p>
-
-<h2>Jilo Server - the server component to Jilo Web</h2>
-
-<p>Jilo Server is installed on the same machine as Jilo Web and takes care of automated tasks and scheduled checks of remote Jilo Agents.</p>
-
-<h2>Jilo Agent - a remote agent for Jilo Web</h2>
-
-<p>Agent installed on remote Jitsi Meet servers that the Jilo Web uses to get more data from and to edit the Jitsi config files.</p>
 
 <hr />
 
