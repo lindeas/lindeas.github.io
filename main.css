@@ -1,0 +1,14 @@
+
+#main-container {
+}
+
+#footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+}
