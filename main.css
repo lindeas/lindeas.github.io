@@ -25,3 +25,19 @@ html, body {
     margin: 20px;
     text-align: center;
 }
+
+.title {
+    margin-top: 30px;
+    magrin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-text {
+    font-size: 3em;
+    text-decoration: none;
+    color: #333;
+}
